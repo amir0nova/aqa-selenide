@@ -1,0 +1,7 @@
+Tests "Happy path"
+city,addDays,pattern,name,phone,message,workingNotesOfTester
+Санкт-Петербург,4,dd.MM.yyyy,Марков Дмитрий,+79102548630,Should input the form for delivery a card ("Happy Path"),имя: русские+пробел
+Владивосток,5,dd.MM.yyyy,Ипполитов-Нестеренко Михаил,+79205684231,Should input the form for delivery a card ("Happy Path"),имя: русские+дефис+пробел
+Мурманск,365,dd.MM.yyyy,Румянцева Оксана,+79602541863,Should input the form for delivery a card ("Happy Path"),дата с переходом на следующий год
+Нижний Новгород,7,ddMMyyyy,Андреева Анна, +79065421256,ddMMyyyy,Should input the form for delivery a card ("Happy Path"),формат ввода без разделителей
+Тамбов,35,dd MM yyyy,Заболотная Кира, +79169524168,Should input the form for delivery a card ("Happy Path"),формат ввода с пробелами
